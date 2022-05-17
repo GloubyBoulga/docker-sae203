@@ -1,42 +1,58 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="fr">
       
 <head>
     <title>
         CapybaraHub
     </title>
-      
-    <!-- linking the stylesheet(CSS) -->
+    <meta charset="utf-8"  >
+    <meta name="Language" content="fr" />
+    <meta name="Author" lang="fr" content="Romain GASCOIN, Paul GALLON, Nicolas Matuska, Louis ANCELLE"/>
+    <!-- récupérer la feuille de style -->
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
   
 <body>
+    
+    <header>
+        <!-- Initialisation de la barre de recherche -->
+        <input id="searchbar" onkeyup="search_video()" type="text"
+            name="search" placeholder="Rechercher votre vidéo de Capybara..">
+    </header>
+
+    <nav>
+        Vidéo drole:
+        Documentaire:
+        vidéo avec d'autre animaux:
+        vidéo où il mange:
+    </nav>
+
       
-    <!-- input tag -->
-    <input id="searchbar" onkeyup="search_video()" type="text"
-        name="search" placeholder="Rechercher votre Capybara..">
-      
-    <!-- ordered list -->
+    <!-- Liste de vidéo -->
     <ul id='list'>
-        <li class="video"> CAPYBARA - Le plus grand rongeur du monde <br>
+        <li class="video" id="documentaire"> CAPYBARA - Le plus grand rongeur du monde <br>
                            <iframe width="420" height="315" src="https://www.youtube.com/embed/Fc-KBiQ6y_o"> </iframe> 
         </li>
-        <li class="video"> Le Capybara, le plus gros rongeur au monde - Les Animaux de la 8 <br>
+        <li class="video" id="documentaire"> Le Capybara, le plus gros rongeur au monde - Les Animaux de la 8 <br>
                            <iframe width="420" height="315" src="https://www.youtube.com/embed/EOMvEXRMprQ"> </iframe> 
         </li>
-        <li class="video"> A Capybara Family's Day at Play | Deadly Game <br>
+        <li class="video" id="documentaire"> A Capybara Family's Day at Play | Deadly Game <br>
                            <iframe width="420" height="315" src="https://www.youtube.com/embed/wE6pEsjgdHo"> </iframe> 
         </li>
-        <li class="video"> Capybara with mandarin orange on head MAESTRO ZEN <br>
+        <li class="video" id="ASMR"> Capybara with mandarin orange on head MAESTRO ZEN <br>
                            <iframe width="420" height="315" src="https://www.youtube.com/embed/QUqCWkPlLLc"> </iframe> 
         </li>
-        <li class="video"> A Little Dive <br>
+        <li class="video" id="humour"> A Little Dive <br>
                            <iframe width="420" height="315" src="https://www.youtube.com/embed/DmAXxUAx7Jw"> </iframe>
         </li>
     </ul>
+
+    <footer>
+        Ceci est le pied de la page.
+    </footer>
       
-    <!-- linking javascript -->
+    <!-- récupérer le javascript -->
     <script src="./capybara.js"></script>
 </body>
   
