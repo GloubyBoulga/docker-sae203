@@ -35,13 +35,13 @@ nav {
 	  float            : right;
     width          : 20%;
 	  display          : inline-block;
-  	background-color : #6b7075;
+  	background-color : #1e7bd8;
 }
 
 header , footer {
   	width            : 100%;
   	display          : inline-block;
-  	background-color : #6b7075;
+  	background-color : #1e7bd8;
     overflow: auto;
 }
 
