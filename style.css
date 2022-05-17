@@ -11,6 +11,8 @@ body {
 
 input[type=text] {
     width : 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
 }
 
 li {
@@ -18,7 +20,9 @@ li {
 }
 
 
-input {
+/* When the input field gets focus,
+   change its width to 100% */
+input[type=text]:focus {
     width : 70%;
 }
 
@@ -33,21 +37,34 @@ input {
     display: list-item;
 }
 
-nav {
-	  float            : right;
-    width            : 20%;
-  	background-color : #4b4f53;
-    list-style-type  :none;
-    display: inline;
-}
-
-header , footer {
+header  {
+    position         : absolute;
+    top              : 0;
+    left             : 0;
+    float            : top;
   	width            : 100%;
   	display          : inline-block;
   	background-color : #4b4f53;
 }
 
+footer {
+    position         : absolute;
+    top              : 0;
+    left             : 0;
+    float            : bottom;
+    width            : 100%;
+    display          : inline-block;
+    background-color : #4b4f53;
+  
+}
+
+img{
+  padding-left:10px;
+}
+
 input{
-  position:absolute;
+    position: absolute;
+    top:50px;
+    right:300px;
 }
  
