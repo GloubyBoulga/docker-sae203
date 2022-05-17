@@ -36,14 +36,14 @@ nav{
     width          : 20%;
     border         : 2px solid black;
 	display          : inline-block;
-	background-color : silver;
+	background-color : #8d8d7f;
 }
 
-header{
+header , footer{
 	border           : 2px solid black;
 	width            : 100%;
 	display          : inline-block;
-	background-color : yellow;
+	background-color : #8d8d7f;
 	box-shadow       : 10px 10px 15px gray;
 }
 
