@@ -31,15 +31,15 @@ input {
 nav {
 	  float            : left;
     width          : 20%;
-    border         : 2px solid black;
 	  display          : inline-block;
-  	background-color : #2c2f33;
+  	background-color : #595e63;
 }
 
-header , footer {
+header , footer , nzv {
   	width            : 100%;
   	display          : inline-block;
-  	background-color : #2c2f33;
+  	background-color : #595e63;
+    overflow: auto;
 }
 
  
