@@ -12,6 +12,10 @@ input[type=text] {
     width : 30%;
 }
 
+li {
+    margin-bottom : 30px;
+}
+
 
 input {
     width : 70%;
@@ -20,25 +24,24 @@ input {
 #list {
     font-size       : 1.5em;
     margin-left     : 90px;
-    margin-bottom   : 30px;
     list-style-type :none;
 }
 
 .video {
-    display: list-item;    
+    display: list-item;
 }
 
 nav {
-	  float            : left;
+	  float            : right;
     width          : 20%;
 	  display          : inline-block;
-  	background-color : #595e63;
+  	background-color : #6b7075;
 }
 
-header , footer , nzv {
+header , footer {
   	width            : 100%;
   	display          : inline-block;
-  	background-color : #595e63;
+  	background-color : #6b7075;
     overflow: auto;
 }
 
