@@ -10,6 +10,7 @@ function search_video() {
         }
         else {
             x[i].style.display="none";
+            
         }
     }
 }
