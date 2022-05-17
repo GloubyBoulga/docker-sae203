@@ -13,7 +13,3 @@ function search_video() {
         }
     }
 }
-
-/*function search_by_id() {
-    let x = document.getElementsByTagName
-}*/

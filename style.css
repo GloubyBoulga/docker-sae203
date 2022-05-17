@@ -1,10 +1,10 @@
 #searchbar{
     margin-left: 15%;
-    padding:15px;
+    padding: 15px;
     border-radius: 10px;
 }
 
-html{
+body{
     background-color: #d9fad1;
 }
 
@@ -23,6 +23,8 @@ input[type=text]:focus {
 #list{
     font-size:  1.5em;
     margin-left: 90px;
+    margin-bottom: 30px;
+    list-style-type:none;
   }
 
 .video{
