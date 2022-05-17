@@ -2,7 +2,7 @@
 FROM debian:latest
 
 # Copier le répertoire html du répertoire courant vers le répertoire de l'image /usr/.../htdocs
-COPY ./docker-sae203/html/index.html /usr/local/apache2/htdocs/
+COPY ./docker-sae203/index.html /usr/local/apache2/htdocs/
 
 # Exécuter la commande echo sur le conteneur 
 # (il peut s'agir de n'importe quelle autre commande)
