@@ -2,7 +2,8 @@
 FROM debian:latest
 
 # Copier le répertoire html du répertoire courant vers le répertoire de l'image /usr/.../htdocs
-COPY ./docker-sae203/index.html /usr/local/debian/htdocs/
+GIT checkout gh-pages
+COPY ./index.html ./htdocs/
 
 # Exécuter la commande echo sur le conteneur 
 # (il peut s'agir de n'importe quelle autre commande)
