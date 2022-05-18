@@ -7,8 +7,8 @@ RUN  apt-get update && \
     apache2
 
 # Copier les fichiers de l'hôte vers l'image
-COPY ./html /var/www/html
-COPY ./video /var/www/video
+COPY ./html  /var/www/html
+COPY ./video /var/www/html
 
 # Exposer le port 80
 EXPOSE 80
