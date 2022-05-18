@@ -1,12 +1,16 @@
 # Utiliser l'image debian officielle comme image parent
 FROM debian:latest
 
-# Copier le répertoire html du répertoire courant vers le répertoire de l'image /usr/.../htdocs
-COPY ./html ./htdocs/
+# Installer des services et des packages
+RUN  apt-get update && \
+    apt-get -y install  \
+    apache2
 
-# Validation de la création
-RUN echo 'Création réussie !'
+# Copier les fichiers de l'hôte vers l'image
+COPY ./html /var/www/html
 
-# Rendre le port 80 accessible au monde en dehors de ce conteneur
+# Exposer le port 80
 EXPOSE 80
 
+# Lancer le service apache au démarrage du conteneur
+CMD ["/usr/sbin/apache2ctl","-DFOREGROUND"]
