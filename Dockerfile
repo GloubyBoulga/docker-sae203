@@ -8,7 +8,9 @@ RUN  apt-get update && \
 
 # Copier les fichiers de l'hôte vers l'image
 COPY ./html  /var/www/html
-COPY ./video /var/www/html
+
+RUN  mkdir var/www/video
+COPY ./video /var/www/video
 
 # Exposer le port 80
 EXPOSE 80
