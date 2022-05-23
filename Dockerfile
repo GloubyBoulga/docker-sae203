@@ -15,5 +15,5 @@ RUN cp -r docker-sae203/video/ /var/www/html/
 # Exposer le port 80
 EXPOSE 80
 
-# Lancer le service apache au démarrage du conteneur
+# Lancer le service nginx au démarrage du conteneur
 CMD ["nginx", "-g", "daemon off;"]
