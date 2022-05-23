@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(255, 255, 158, 0.568);
+}
+
+body, div{
+    margin-left: 1%;
+}
+
+header{
+    text-align: center;
+    background-color: blanchedalmond;
+    width: 100%;
+    display: inline-block;
+    top:0;
+}
+
+img{
+    margin-left: 3%;
+}
+
+footer{
+    text-align: center;
+    background-color: blanchedalmond;
+    font-weight: bold;
+    width: 100%;
+    display: inline-block; 
+    bottom:0;   
+}
+
+html, body {
+    padding:0;
+    margin:0;
+}
+.annexe_figure{
+    font-style: italic;
+    font-size: smaller; 
+    margin-left: 20%;
+}
+
+nav{
+    border-style: double;
+    border-color: rgb(88, 77, 77);
+    background-color: rgb(255, 185, 93);
+    margin-right: 80%;
+}
+
+#hautdepage {
+    float: right;
+    padding-right: 30px;
+}
