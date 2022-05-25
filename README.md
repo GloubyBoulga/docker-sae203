@@ -8,6 +8,7 @@
 
 - A1 GALLON Paul
 - A2 MATUSKA-KOHÜT Nicolas
+- A1 ANCELLE Louis
 - A1 GASCOIN Romain
 
 ## Liens vers le site web du projet
