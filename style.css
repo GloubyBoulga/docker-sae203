@@ -1,5 +1,6 @@
 body{
-    background-color: rgba(255, 255, 158, 0.568);
+	font-family: Arial;
+    background-color: #f6f8fa;
 }
 
 body, div{
@@ -8,10 +9,11 @@ body, div{
 
 header{
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: #24292f;
     width: 100%;
     display: inline-block;
     top:0;
+    color : white;
 }
 
 img{
@@ -20,11 +22,12 @@ img{
 
 footer{
     text-align: center;
-    background-color: blanchedalmond;
+    background-color:  #24292f;
     font-weight: bold;
     width: 100%;
     display: inline-block; 
-    bottom:0;   
+    bottom:0; 
+    color : white;  
 }
 
 html, body {
@@ -35,12 +38,13 @@ html, body {
     font-style: italic;
     font-size: smaller; 
     margin-left: 20%;
+    font-family: Arial;
 }
 
 nav{
     border-style: double;
     border-color: rgb(88, 77, 77);
-    background-color: rgb(255, 185, 93);
+    background-color: #ddf4ff;
     margin-right: 80%;
 }
 
